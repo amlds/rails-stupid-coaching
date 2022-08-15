@@ -1,0 +1,26 @@
+.tchat {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.message {
+  background-color: #FCFCFC;
+  border-left: #E9E9E9 solid 10px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: large;
+
+  padding-left: 20px;
+}
+
+.coatch {
+  background-color: #FFFAD3;
+}
+
+.tchat a {
+  color: grey;
+}

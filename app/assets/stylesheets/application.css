@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Import fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+
+/* Importing all components file */
+@import url("components/message.css");
+
+body {
+  margin: 50px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
